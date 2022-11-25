@@ -15,5 +15,49 @@ header {
 #btn-nav {
   float: right;
 }
-section {
+/*---------------------------------------------------------------------------------START SECTION*/
+.tl {
+  width: 95%;
+  margin: auto;
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.cont-pr {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+}
+.cont-form {
+  margin-top: 20px;
+  width: 40%;
+}
+.form {
+  background-color: rgba(0, 255, 255, 0);
+  width: 100%;
+  padding: 10px;
+}
+.tl-form {
+  text-align: center;
+}
+.cont-names {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#name,
+#lastname {
+  width: 48%;
+}
+#btn-form {
+  width: 100%;
+}
+
+.cont-img {
+  width: 60%;
+  margin: auto;
+}
+.cont-img img {
+  width: 100%;
 }
