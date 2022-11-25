@@ -1,0 +1,19 @@
+header {
+  height: 10vh;
+}
+#cont-logo img {
+  width: 35%;
+}
+.cont-account {
+  width: 12%;
+}
+.cont-account img {
+  width: 35px;
+  margin: auto;
+  text-align: center;
+}
+#btn-nav {
+  float: right;
+}
+section {
+}
