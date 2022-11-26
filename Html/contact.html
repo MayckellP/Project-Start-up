@@ -18,18 +18,16 @@
       <!------------------------------------------------------------------------------START NAVBAR-MENU-->
       <nav
         class="navbar bg-gradient fixed-top"
+        id="cont-navbar"
         style="background-color: rgba(181, 204, 207, 0.849)"
       >
-        <div class="container-fluid">
+        <div class="container-fluid" id="cont-navbar1">
           <div id="cont-logo">
-            <a class="navbar-brand" href="../index.html">
+            <a class="navbar-brand" href="../index.html" id="a-logo">
               <img src="../Images/LogoSinFondo.png" alt="logo-principal" />
             </a>
           </div>
           <div class="cont-account">
-            <a href="">
-              <img src="../Images/icons/userNavbar.png" alt="user-navbar" />
-            </a>
             <button
               id="btn-nav"
               class="navbar-toggler"
@@ -40,6 +38,9 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+            <a href="">
+              <img src="../Images/icons/userNavbar.png" alt="user-navbar" />
+            </a>
             <div
               class="offcanvas offcanvas-end text-bg-dark"
               tabindex="-1"
@@ -198,6 +199,120 @@
         <div class="cont-img">
           <img src="../Images/contactUs.png" alt="" />
         </div>
+      </div>
+
+      <div class="cont-loc">
+        <div class="cont-map my-2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d568.1274115455853!2d8.514476524824262!3d47.36345881390801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790098ca9252865%3A0x7339eea41015370e!2sR%C3%A4ffelstrasse%2012%2C%208045%20Z%C3%BCrich!5e0!3m2!1ses-419!2sch!4v1669418410832!5m2!1ses-419!2sch"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            id="map"
+          ></iframe>
+        </div>
+
+        <div class="cont-addresse my-2">
+          <table class="tbl">
+            <tr>
+              <td colspan="2"><h3>More Details</h3></td>
+            </tr>
+            <tr>
+              <td class="tb-tl fw-bold">Tel.:</td>
+              <td class="tb-info">+417 8248 4361</td>
+            </tr>
+            <tr>
+              <td class="tb-tl fw-bold">Mail:</td>
+              <td class="tb-info">opportravel.zuerich@hotmail.com</td>
+            </tr>
+            <tr>
+              <td class="tb-tl fw-bold">Visit:</td>
+              <td class="tb-info">
+                <a
+                  href="https://www.google.com/maps/dir//R%C3%A4ffelstrasse+12,+8045+Z%C3%BCrich/@47.3634588,8.5144765,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4790098ca9252865:0x7339eea41015370e!2m2!1d8.5146006!2d47.3634414!3e0"
+                  >Räffelstrasse 12, 8045 Zürich</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td class="tb-tl fw-bold">Social:</td>
+              <td class="tb-info">
+                <div class="cont-social">
+                  <a href="#" class="fw-bold">
+                    <img
+                      src="../Images/facebook-logo.png"
+                      alt="facebook-social"
+                    />
+                    Facebook
+                  </a>
+                  <a href="#" class="fw-bold">
+                    <img
+                      src="../Images/whatsapp-logo.png"
+                      alt="whatsapp-social"
+                    />
+                    Whatsapp
+                  </a>
+                  <a href="#" class="fw-bold">
+                    <img
+                      src="../Images/twitter-logo.png"
+                      alt="twitter-social"
+                    />
+                    Twitter
+                  </a>
+                  <a href="#" class="fw-bold">
+                    <img
+                      src="../Images/instagram-logo.png"
+                      alt="instagram-social"
+                    />Instagram
+                  </a>
+                  <a href="#" class="fw-bold">
+                    <img
+                      src="../Images/gmail-logo.png"
+                      alt="gmail-social"
+                    />Gmail
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="fluid-container" id="cont-footer">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <p class="col-md-4 mb-0 text-black">© 2022 Company, Inc</p>
+
+          <a
+            href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+            id="cont-git"
+          >
+            <img
+              src="../Images/icons/github-black.png"
+              alt=""
+              id="git-img"
+            />Opportunity Developers
+          </a>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-black">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-black">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-black">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-black">Contact</a>
+            </li>
+          </ul>
+        </footer>
       </div>
     </section>
 
