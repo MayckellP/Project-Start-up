@@ -1,7 +1,7 @@
 #PROJECT #3 - Opportravel  
 Unternehmen, das Reisen, Unterkünfte und Flüge in alle Teile der Welt anbietet.
 
-Mitglieder der Grpper:
+Mitglieder der Grupper:
 
 - Cyrill Senger
 - Mayckell Perez
