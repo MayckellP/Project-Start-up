@@ -1,0 +1,35 @@
+.card img {
+  height: 280px;
+}
+header {
+  height: 10vh;
+}
+#cont-navbar {
+  height: 10vh;
+  padding: 0;
+}
+#cont-navbar1 {
+  width: 100%;
+  height: 10vh;
+}
+#cont-logo {
+  height: 80%;
+  width: 30%;
+}
+#cont-logo a img {
+  height: 100%;
+  margin: auto;
+}
+.cont-account {
+  width: 70%;
+}
+.cont-account img {
+  float: right;
+}
+#btn-nav {
+  float: right;
+  height: 100%;
+}
+section {
+  height: 80vh;
+}
