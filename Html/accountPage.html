@@ -42,9 +42,7 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="">
-              <img src="../Images/icons/userNavbar.png" alt="user-navbar" />
-            </a>
+            <a href=""> </a>
             <div
               class="offcanvas offcanvas-end text-bg-dark"
               tabindex="-1"
@@ -144,72 +142,50 @@
     </header>
     <!-- Blog Entries Start -->
     <section>
-      <div class="text-center">
-        <h1 class="tl">MY ACCOUNT</h1>
-        <hr />
-      </div>
-      <div class="container-fluid h-100">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col-md-9 col-lg-6 col-xl-5">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-              class="img-fluid"
-              alt="Sample image"
-            />
+      <h1 class="tl">MY ACCOUNT</h1>
+      <div class="cont-gene mb-5">
+        <div class="cont-img">
+          <img src="../Images/account.webp" alt="fondo-account" />
+        </div>
+        <div class="cont-log">
+          <div class="method">
+            <div class="m-tl">Sign in with</div>
+            <div class="m-img">
+              <a href=""><img src="../Images/facebook-logo.png" alt="" /></a>
+              <a href=""><img src="../Images/twitter-logo.png" alt="" /></a>
+              <a href=""><img src="../Images/gmail-logo.png" alt="" /></a>
+            </div>
           </div>
-          <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-            <form>
-              <div
-                class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start"
-              >
-                <p class="lead fw-normal mb-0 me-3">Sign in with</p>
-                <button type="button" class="btn">
-                  <a href=""
-                    ><img src="../Images/facebook-logo.png" alt=""
-                  /></a>
-                </button>
-
-                <button type="button" class="btn mx-2">
-                  <a href=""><img src="../Images/twitter-logo.png" alt="" /></a>
-                </button>
-
-                <button type="button" class="btn">
-                  <a href=""><img src="../Images/gmail-logo.png" alt="" /></a>
-                </button>
-              </div>
-
-              <div class="divider d-flex align-items-center my-4">
-                <p class="text-center fw-bold mx-3 mb-0">Or</p>
-              </div>
-
-              <!-- Email input -->
-              <div class="form-outline mb-4">
+          <div class="cont-formlog">
+            <p class="text-center fw-bold mx-3 my-3">Or</p>
+            <form action="">
+              <div class="form-floating mb-3">
                 <input
                   type="email"
-                  id="form3Example3"
-                  class="form-control form-control-lg"
-                  placeholder="Enter a valid email address"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
                 />
+                <label for="floatingInput">Email address</label>
               </div>
-
-              <!-- Password input -->
-              <div class="form-outline mb-3">
+              <div class="form-floating">
                 <input
                   type="password"
-                  id="form3Example4"
-                  class="form-control form-control-lg"
-                  placeholder="Enter password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
                 />
+                <label for="floatingPassword">Password</label>
               </div>
-
-              <div class="d-flex justify-content-between align-items-center">
+              <div
+                class="d-flex justify-content-between align-items-center my-3"
+              >
                 <!-- Checkbox -->
-                <div class="form-check mb-0">
+                <div class="form-check form-switch">
                   <input
-                    class="form-check-input me-2"
+                    class="form-check-input me-3"
                     type="checkbox"
-                    value=""
-                    id="form2Example3"
+                    id="flexSwitchCheckDefault"
                   />
                   <label class="form-check-label" for="form2Example3">
                     Remember me
@@ -218,7 +194,7 @@
                 <a href="#!" class="text-body">Forgot password?</a>
               </div>
 
-              <div class="text-center text-lg-start mt-4 pt-2">
+              <div class="text-lg-start mt-4 pt-2">
                 <button
                   type="button"
                   class="btn btn-primary btn-lg"

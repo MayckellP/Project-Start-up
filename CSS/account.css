@@ -28,13 +28,47 @@ header {
   height: 100%;
 }
 section {
-  height: 93vh;
+  height: 80vh;
 }
 .tl {
   width: 95%;
   margin: auto;
   font-size: 50px;
   text-align: center;
+}
+.cont-gene {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+}
+.cont-img {
+  width: 50%;
+  margin: auto;
+}
+.cont-img img {
+  width: 100%;
+}
+.cont-log {
+  width: 50%;
+  margin: auto;
+}
+.method {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.m-tl {
+  width: 30%;
+  margin: auto;
+}
+
+.m-img {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+.m-img img {
+  margin-right: 20px;
 }
 /*------------------------------*/
 #cont-footer {
@@ -87,6 +121,21 @@ footer p {
   font-size: 15px;
 }
 @media (max-width: 600px) {
+  .cont-gene {
+    flex-direction: column;
+    margin: auto;
+    width: 95%;
+  }
+  .cont-img {
+    width: 100%;
+  }
+  .cont-log {
+    width: 100%;
+  }
+  .method {
+    width: 60%;
+    margin: auto;
+  }
   footer {
     flex-direction: column;
   }
