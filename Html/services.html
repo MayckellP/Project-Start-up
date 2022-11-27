@@ -18,18 +18,16 @@
       <!------------------------------------------------------------------------------START NAVBAR-MENU-->
       <nav
         class="navbar bg-gradient fixed-top"
+        id="cont-navbar"
         style="background-color: rgba(181, 204, 207, 0.849)"
       >
-        <div class="container-fluid">
+        <div class="container-fluid" id="cont-navbar1">
           <div id="cont-logo">
-            <a class="navbar-brand" href="../index.html">
+            <a class="navbar-brand" href="../index.html" id="a-logo">
               <img src="../Images/LogoSinFondo.png" alt="logo-principal" />
             </a>
           </div>
           <div class="cont-account">
-            <a href="">
-              <img src="../Images/icons/userNavbar.png" alt="user-navbar" />
-            </a>
             <button
               id="btn-nav"
               class="navbar-toggler"
@@ -40,6 +38,9 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+            <a href="">
+              <img src="../Images/icons/userNavbar.png" alt="user-navbar" />
+            </a>
             <div
               class="offcanvas offcanvas-end text-bg-dark"
               tabindex="-1"
@@ -136,6 +137,67 @@
     </header>
     <section>
       <h2>SERVICES</h2>
+
+      <div id="cont-footer">
+        <footer>
+          <p><i>© Terms & Conditions</i></p>
+          <div class="cont-men">
+            <ul>
+              <li>
+                <a href="#">
+                  <img
+                    src="../Images/icons/facebook-circle-logo-black.png"
+                    alt="facebook-social"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="../Images/icons/instagram-alt-logo-black.png"
+                    alt="instagram-social"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="../Images/icons/twitter-logo-black.png"
+                    alt="twitter-social"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="../Images/icons/gmail-logo-black.png"
+                    alt="gmail-social"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/MayckellP/Project-Start-up">
+                  <img
+                    src="../Images/icons/github-black.png"
+                    alt="github-repository"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a
+            href="https://www.google.com/maps?ll=47.363458,8.514618&z=19&t=m&hl=es-419&gl=CH&mapclient=embed&q=R%C3%A4ffelstrasse+12+8045+Z%C3%BCrich"
+            id="cont-add"
+            target="_blank"
+          >
+            <img
+              src="../Images/icons/map-icon-black.png"
+              alt="address"
+              id="add-img"
+            />Räffelstrasse 12, 8045 Zürich
+          </a>
+        </footer>
+      </div>
     </section>
 
     <!--CODE BOOTSTRAP-->

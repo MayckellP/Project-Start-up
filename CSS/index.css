@@ -1,25 +1,33 @@
 /*---------------------------------------------------------------------------------START HEADER & NAVBAR-MENU*/
 header {
-  height: 92vh;
+  height: 95vh;
   position: relative;
 }
-#cont-logo {
-  background-color: rgba(0, 0, 0, 0);
+#cont-navbar {
+  height: 10vh;
+  padding: 0;
 }
-#cont-logo img {
-  width: 35%;
+#cont-navbar1 {
+  width: 100%;
+  height: 10vh;
+}
+#cont-logo {
+  height: 80%;
+  width: 30%;
+}
+#cont-logo a img {
+  height: 100%;
+  margin: auto;
 }
 .cont-account {
-  background-color: rgba(55, 0, 255, 0);
-  width: 12%;
+  width: 70%;
 }
 .cont-account img {
-  width: 35px;
-  margin: auto;
-  text-align: center;
+  float: right;
 }
 #btn-nav {
   float: right;
+  height: 100%;
 }
 /*---------------------------------------------------------------------------------START VIDEO-BACKGROUND*/
 .cont-video video {
@@ -46,6 +54,7 @@ header {
   width: 100%;
   margin-top: 40vh;
   text-align: center;
+  margin-bottom: 10px;
 }
 #tl-principal {
   font-size: 80px;
@@ -56,23 +65,114 @@ header {
   font-family: "IBM Plex Sans Condensed", sans-serif;
   text-align: center;
 }
+.cont-search {
+  margin: auto;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: 1px solid rgb(57, 115, 190);
+}
 .form input {
-  background-color: rgba(255, 255, 255, 0.74);
-  width: 60%;
-  height: 50px;
+  width: 80%;
+  height: 80px;
   border-radius: 25px;
+  border: 0 solid black;
+  padding-left: 10px;
 }
 .form img {
   width: 50px;
 }
-/*---------------------------------------------------------------------------------START FOOTER*/
-.footer {
-  background-color: rgb(58, 58, 58);
-  height: 8vh;
+.offer {
   text-align: center;
+  margin: auto;
 }
-.footer p {
-  height: 100%;
-  font-size: 25px;
+.offer a {
+  text-decoration: none;
   color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.offer img {
+  width: 30px;
+}
+/*---------------------------------------------------------------------------------START FOOTER*/
+#cont-footer {
+  width: 98%;
+  margin: auto;
+  height: 10vh;
+}
+footer {
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer p {
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  font-size: 20px;
+}
+.cont-men {
+  width: 50%;
+  margin: auto;
+}
+.cont-men ul {
+  padding-left: 0px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin: auto;
+}
+.cont-men ul li a {
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#cont-add {
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+@media (max-width: 600px) {
+  #tl-principal {
+    font-size: 50px;
+  }
+  .cont-search {
+    width: 80%;
+  }
+  .form input {
+    height: 50px;
+  }
+  .form img {
+    width: 35px;
+  }
+  .offer a {
+    font-size: 15px;
+  }
+  .offer img {
+    width: 25px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer p,
+  .cont-men ul,
+  #cont-add {
+    width: 100%;
+    border: 0;
+  }
+  .cont-men {
+    justify-content: start;
+    width: 100%;
+  }
 }
