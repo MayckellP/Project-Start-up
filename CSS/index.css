@@ -175,4 +175,7 @@ footer p {
     justify-content: start;
     width: 100%;
   }
+  #add-img {
+    width: 0px;
+  }
 }
