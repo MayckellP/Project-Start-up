@@ -1,6 +1,3 @@
-.card img {
-  height: 280px;
-}
 header {
   height: 10vh;
 }
@@ -30,15 +27,9 @@ header {
   float: right;
   height: 100%;
 }
+/*---------------------------------------------------------------------------------START SECTION*/
 section {
   height: 80vh;
-}
-.tl {
-  width: 95%;
-  margin: auto;
-  font-size: 50px;
-  text-align: center;
-  border-bottom: 1px solid black;
 }
 /*------------------------------*/
 #cont-footer {
@@ -90,6 +81,7 @@ footer p {
   color: black;
   font-size: 15px;
 }
+
 @media (max-width: 600px) {
   footer {
     flex-direction: column;
