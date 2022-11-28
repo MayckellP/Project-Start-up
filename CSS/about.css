@@ -32,8 +32,11 @@ header {
 }
 section {
   height: 80vh;
+  background-color: #f5f5f5;
 }
 .tl {
+
+  background-image: url();
   width: 95%;
   margin: auto;
   font-size: 50px;
