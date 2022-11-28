@@ -1,3 +1,6 @@
+.col {
+  background-color: #f5f5f5;
+}
 .card img {
   height: 280px;
 }
@@ -34,7 +37,7 @@ section {
   height: 80vh;
   background-color: #f5f5f5;
 }
-.text-center{
+.text-center {
   margin: auto;
   width: 97%;
 }
